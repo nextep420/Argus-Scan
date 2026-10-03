@@ -1,0 +1,66 @@
+[
+  {
+    "product": "OpenSSH",
+    "version_pattern": "^(7\\.[0-9]|6\\.)",
+    "cve": "CVE-2018-15473",
+    "severity": "medium",
+    "summary": "Username enumeration via timing differences during authentication.",
+    "reference": "https://nvd.nist.gov/vuln/detail/CVE-2018-15473"
+  },
+  {
+    "product": "Apache HTTPD",
+    "version_pattern": "^2\\.4\\.(4[0-9]|[0-3][0-9])$",
+    "cve": "CVE-2021-41773",
+    "severity": "critical",
+    "summary": "Path traversal and remote code execution in Apache 2.4.49.",
+    "reference": "https://nvd.nist.gov/vuln/detail/CVE-2021-41773"
+  },
+  {
+    "product": "nginx",
+    "version_pattern": "^1\\.(1[0-6]|[0-9])\\.",
+    "cve": "CVE-2017-7529",
+    "severity": "high",
+    "summary": "Integer overflow in range filter module can cause a DoS or leak memory.",
+    "reference": "https://nvd.nist.gov/vuln/detail/CVE-2017-7529"
+  },
+  {
+    "product": "vsFTPd",
+    "version_pattern": "^2\\.3\\.4$",
+    "cve": "CVE-2011-2523",
+    "severity": "critical",
+    "summary": "Known backdoor in vsftpd 2.3.4 distribution (smiley-face backdoor).",
+    "reference": "https://nvd.nist.gov/vuln/detail/CVE-2011-2523"
+  },
+  {
+    "product": "MySQL",
+    "version_pattern": "^5\\.5\\.",
+    "cve": "CVE-2012-2122",
+    "severity": "high",
+    "summary": "Authentication bypass due to flawed memcmp() usage on some platforms.",
+    "reference": "https://nvd.nist.gov/vuln/detail/CVE-2012-2122"
+  },
+  {
+    "product": "Microsoft IIS",
+    "version_pattern": "^6\\.0$",
+    "cve": "CVE-2017-7269",
+    "severity": "critical",
+    "summary": "Buffer overflow in WebDAV service allowing remote code execution.",
+    "reference": "https://nvd.nist.gov/vuln/detail/CVE-2017-7269"
+  },
+  {
+    "product": "Samba",
+    "version_pattern": "^(3\\.|4\\.[0-5]\\.)",
+    "cve": "CVE-2017-7494",
+    "severity": "critical",
+    "summary": "'SambaCry' - remote code execution via writable share (EternalRed).",
+    "reference": "https://nvd.nist.gov/vuln/detail/CVE-2017-7494"
+  },
+  {
+    "product": "Redis",
+    "version_pattern": "^[0-4]\\.",
+    "cve": "CVE-2022-0543",
+    "severity": "critical",
+    "summary": "Lua sandbox escape leading to remote code execution (Debian packages).",
+    "reference": "https://nvd.nist.gov/vuln/detail/CVE-2022-0543"
+  }
+]
